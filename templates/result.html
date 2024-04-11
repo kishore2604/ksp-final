@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Violence Detection Results</title>
+</head>
+<body>
+    <h1>Violence Detection Results</h1>
+    <h2>Violence Frames</h2>
+    {% for frame in violence_frames %}
+        <img src="{{ url_for('static', filename=frame) }}" alt="Violence Frame">
+    {% endfor %}
+</body>
+</html>

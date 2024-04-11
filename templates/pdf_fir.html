@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>FIR</title>
+<style>
+    /* Add your CSS styles here */
+    body {
+        font-family: Arial, sans-serif;
+    }
+    #header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #logo {
+        width: 150px; /* Adjust as needed */
+        height: auto;
+    }
+    .details {
+        margin-bottom: 20px;
+    }
+    .details label {
+        font-weight: bold;
+    }
+</style>
+</head>
+<body>
+<div id="header">
+    <img id="logo" src="static/img/logo.png" alt="Karnataka Police Logo">
+</div>
+<div class="details">
+    <label>Name of the Complainant:</label>
+    <span>{{ complainant_name }}</span>
+</div>
+<div class="details">
+    <label>Contact Number:</label>
+    <span>{{ contact_number }}</span>
+</div>
+<div class="details">
+    <label>Address:</label>
+    <span>{{ address }}</span>
+</div>
+<div class="details">
+    <label>Aadhar Number:</label>
+    <span>{{ aadhar_number }}</span>
+</div>
+<div class="details">
+    <label>Incident Date:</label>
+    <span>{{ incident_date }}</span>
+</div>
+<div class="details">
+    <label>Incident Time:</label>
+    <span>{{ incident_time }}</span>
+</div>
+<div class="details">
+    <label>Incident Location:</label>
+    <span>{{ incident_location }}</span>
+</div>
+<div class="details">
+    <label>Category of Offence:</label>
+    <span>{{ offence_category }}</span>
+</div>
+<div class="details">
+    <label>Offence Description:</label>
+    <span>{{ offence_description }}</span>
+</div>
+<div class="details">
+    <label>Description of the Crime (Witness):</label>
+    <span>{{ crime_description }}</span>
+</div>
+<div class="details">
+    <label>Suspect Information:</label>
+    <span>{{ suspect_information }}</span>
+</div>
+</body>
+</html>
